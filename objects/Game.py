@@ -10,10 +10,10 @@ import pygame
 from pygame.locals import *
 from pygame.sprite import Group
 
-from classes import Colors
-from classes import Highscore
-from classes import Mole
-from classes import Shovel
+from objects import Colors
+from objects import Highscore
+from objects import Mole
+from objects import Shovel
 
 
 pygame.init()
@@ -60,13 +60,13 @@ class Game:
         self.music = pygame.mixer.Sound('sounds/whack.wav')
 
         # set and initialize game objects
-        self.mole = Mole(screen.width, screen.height, 0, 230)
-        self.shovel = Shovel()
+        self.mole = Mole.Mole(screen.width, screen.height, 0, 230)
+        self.shovel = Shovel.Shovel()
 
         # initialize game variables
         self.points = 0
         self.count_fails = 0
-        self.highscore = Highscore(self.screen)
+        self.highscore = Highscore.Highscore(self.screen)
         # set player name to empty string
         self.player = ''
 
@@ -112,7 +112,7 @@ class Game:
                                     self.screen.height / 4,
                                     100)
             # add points to screen
-            self.screen.msg_display(u'Punkte: ' +
+            self.screen.msg_display(u'Points: ' +
                                     str(self.points),
                                     self.screen.width / 2,
                                     self.screen.height / 2,

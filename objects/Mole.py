@@ -4,7 +4,6 @@
 Mole-Class: inherited from Sprite, used to create a mole object and add a
     sprite for visualization in game world
 """
-__author__ = 'Oliver Banse'
 
 import random
 

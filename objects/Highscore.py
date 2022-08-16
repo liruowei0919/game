@@ -10,7 +10,7 @@ __author__ = 'Oliver Banse'
 import json
 from operator import itemgetter
 
-from classes import Colors
+from objects import Colors
 import pygame
 from pygame.locals import *
 

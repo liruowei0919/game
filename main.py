@@ -5,9 +5,10 @@
 # IDEA
 # Import and Initialization
 import pygame
+from objects.Screen import Screen
 
-from classes.Screen import Screen
-from classes.Game import Game
+import objects.Screen
+from objects.Game import Game
 
 pygame.init()
 

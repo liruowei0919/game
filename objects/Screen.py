@@ -4,11 +4,10 @@
 Screen-Class: creates a screen object where the game world, menus, text, etc.
     can by displayed
 """
-__author__ = 'Oliver Banse'
 
 import pygame
 
-from classes import Colors
+from objects import Colors
 
 pygame.init()
 
