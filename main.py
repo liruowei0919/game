@@ -1,8 +1,6 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
 
-__author__ = 'Oliver Banse'
-
 
 # IDEA
 # Import and Initialization
@@ -20,9 +18,10 @@ game = Game(screen)
 # Run Game
 game.start()
 
-x = np.
 
 #if __name__ == '__main__':
 #    game.start()
 
 print("x")
+
+

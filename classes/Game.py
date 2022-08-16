@@ -127,7 +127,8 @@ class Game:
             self.screen.flip()
         # when game is not finished anymore show main menu
         self.show_mainmenu()
-
+    def define_empty(self):
+        print("what to do next?")
     # show player input name window
     def game_highscore(self):
         # Assign variables
