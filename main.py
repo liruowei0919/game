@@ -1,12 +1,12 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
-
+import time
 
 # IDEA
 # Import and Initialization
 import pygame
 from objects.Screen import Screen
-
+start = time.time()
 import objects.Screen
 from objects.Game import Game
 
