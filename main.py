@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
 import time
+import seaborn
+
 
 # IDEA
 # Import and Initialization
@@ -17,6 +19,8 @@ screen = Screen('Hit the Mole!', 800, 600)
 # Entities
 game = Game(screen)
 # Run Game
+end = time.time()
+print("the program takes %f.4 to run" % (end-start))
 game.start()
 
 
